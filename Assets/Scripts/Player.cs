@@ -20,4 +20,10 @@ public class Player : NetworkBehaviour
     {
         HandleMovement();
     }
+
+    [Command]
+    void Hola()
+    {
+        Debug.Log("Received Hola from client!");
+    }
 }
